@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "bouncyworld",
+  "version": "${version}",
+  "name": "Bouncy World Mod",
+  "description": "Bouncy :D",
+  "authors": [
+    "DuncanRuns"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/bouncyworld/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.duncanruns.bouncyworld.BouncyWorld"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "bouncyworld.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.7"
+  }
+}
